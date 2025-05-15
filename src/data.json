@@ -1,0 +1,47 @@
+{
+    "aboutMe": {
+        "about": "Undergraduate student of Kyiv Polytechnic Institute in Kyiv, 18yo. Passionate about technology and innovation, currently exploring fields like software development, AI, and web-development. Always eager to learn new things, take on challenges, and grow both academically and personally.",
+        "phoneNumber": "123-456-7890",
+        "email": "myemail@gmail.com",
+        "address": "123 Anywhere Street"
+    },
+    "skills": [
+        "Management",
+        "Critical Thinking",
+        "Leadership",
+        "Hardworking"
+    ],
+    "languages": [
+        "Ukrainian(native)",
+        "English(B1+/B2)"
+    ],
+    "name": {
+        "first": "Maksym",
+        "last": "Zub"
+    },
+    "field": "Future Web-Developer",
+    "projects": {
+        "Arcanoid": {
+            "name": "Arcanoid",
+            "years": "2024",
+            "description": "The Arcanoid Game is a classic brick-breaker arcade game built with Python and Pygame. Players control a paddle to bounce a ball and break all the bricks on the screen while preventing the ball from falling."
+        },
+        "YelpCamp": {
+            "name": "YelpCamp",
+            "years": "2025",
+            "description": "The YelpCamp project is a full-stack web application inspired by Yelp, allowing users to browse, create, and review campgrounds. Built using Node.js, Express, MongoDB, and EJS, the app supports user authentication and CRUD operations for campgrounds and reviews. It features validation, flash messages, and security using tools like Passport.js."
+        },
+        "MuseumOfCandy": {
+            "name": "MuseumOfCandy",
+            "years": "2025",
+            "description": "The Museum of Candy project is a responsive, visually engaging static website built using HTML and CSS as part of Colt Steele’s Web Developer Bootcamp course on Udemy. It showcases a fictional candy museum with a modern layout, stylish typography using Flexbox and media queries for responsive design. Done by using Bootstrap"
+        }
+    },
+    "references": {
+        "github": "https://github.com/ZubMaksym"
+    },
+    "education": {
+        "university": "Kyiv Polytechnic Institute",
+        "years": "2024-now"
+    }
+}
