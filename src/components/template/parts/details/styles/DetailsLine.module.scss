@@ -1,0 +1,7 @@
+@use "../../../../template/MainTemplate/Statics.scss" as *;
+
+.DetailsLine {
+    background-color: $line-color;
+    margin: 12.5px 40px 0 0;
+    height: 2px;
+}

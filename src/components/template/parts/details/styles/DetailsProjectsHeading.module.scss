@@ -1,0 +1,13 @@
+.DetailsProjectsHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+    div {
+        margin-right: 40px;
+        font-weight: normal;
+    }
+}

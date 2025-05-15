@@ -1,0 +1,11 @@
+@use "../MainTemplate/Statics.scss" as *;
+
+.mainTemplate {
+    margin: 10px auto;
+    display: flex;
+    width: $width;
+    height: $height;
+    border: 2px solid black;
+    border-radius: $border-radius;
+    overflow: hidden;
+}
