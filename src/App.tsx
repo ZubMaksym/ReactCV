@@ -1,9 +1,9 @@
-import MainTemplate from "./components/MainTemplate"
-import "./styles/styles.scss"
+import MainTemplate from "./components/template/MainTemplate/MainTemplate"
+import "./styles/reset.scss"
 
 function App() {
   return(
-    <div className="app">
+    <div className="App">
       <MainTemplate/>
     </div>
   )

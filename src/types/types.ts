@@ -1,33 +1,44 @@
-export interface JSONAboutAndContacts {
+import { type ReactNode } from "react";
+
+export interface DescriptionTitleProps {
+    title: string;
+    children?: ReactNode;
+}
+
+export interface DetailsSectionProps {
+    section: string;
+    children?: ReactNode;
+}
+
+export interface DescriptionContentProps {
     value: string;
 }
 
-export interface JSONSkills {
+export interface DescriptionSkillsProps {
     skills: Array<string>;
 }
 
-export interface JSONLanguages {
+export interface DescriptionLanguagesProps {
     languages: Array<string>;
 }
 
-export interface JSONHeadingSection {
-    section: string;
-}
-
-export interface JSONDetailsSection {
-    heading: string; 
+export interface DetailsProjectsHeadingProps {
+    heading: string;
     years: string;
 }
 
-export interface JSONDetailsDescription {
+export interface DetailsProjectsContentProps {
     description: string;
 }
 
-export interface JSONDetailsReferences {
+export interface DetailsReferencesProps {
     references: string;
 }
 
-export interface JSONDetilsEducation {
-    university: string;
-    years: string;
+export interface DetailsEducationProps {
+    details: [{
+        educationalInstitution: string;
+        years: string;
+    }]
 }
+

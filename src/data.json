@@ -41,7 +41,9 @@
         "github": "https://github.com/ZubMaksym"
     },
     "education": {
-        "university": "Kyiv Polytechnic Institute",
-        "years": "2024-now"
+        "details": {
+            "educationalInstitution": "Kyiv Polytechnic Institute",
+            "years": "2024-now"
+        }
     }
 }
