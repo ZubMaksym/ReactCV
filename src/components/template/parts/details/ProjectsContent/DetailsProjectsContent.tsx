@@ -1,6 +1,6 @@
-import {type DetailsProjectsContentProps } from "../../../../types/types"
+import {type DetailsProjectsContentProps } from "../../../../../types/types"
 import classNames from "classnames"
-import styles from "./styles/DetailsProjectsContent.module.scss"
+import styles from "./DetailsProjectsContent.module.scss"
 
 export default function DetailsProjectsContent({description}: DetailsProjectsContentProps){
     return(

@@ -1,7 +1,7 @@
-import DetailsLine from "./DetailsLine"
-import styles from "./styles/DetailsSection.module.scss"
+import DetailsLine from "../Line/DetailsLine"
+import styles from "./DetailsSection.module.scss"
 import classNames from "classnames"
-import {type DetailsSectionProps } from "../../../../types/types"
+import {type DetailsSectionProps } from "../../../../../types/types"
 
 export default function DetailsSection({section, children}: DetailsSectionProps){
     return(

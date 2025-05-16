@@ -1,8 +1,0 @@
-import classNames from "classnames"
-import styles from "./styles/DescriptionLine.module.scss"
-
-export default function DescriptionLine(){
-    return(
-        <div className={classNames(styles.DescriptionLine)}></div>
-    )
-}

@@ -1,5 +1,5 @@
 import classNames from "classnames"
-import styles from "./styles/DetailsLine.module.scss"
+import styles from "./DetailsLine.module.scss"
 
 export default function DetailsLine(){
     return(

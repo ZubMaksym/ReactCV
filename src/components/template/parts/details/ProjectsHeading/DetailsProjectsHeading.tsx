@@ -1,5 +1,5 @@
-import styles from "./styles/DetailsProjectsHeading.module.scss"
-import { type DetailsProjectsHeadingProps } from "../../../../types/types"
+import styles from "./DetailsProjectsHeading.module.scss"
+import { type DetailsProjectsHeadingProps } from "../../../../../types/types"
 import classNames from "classnames"
 
 export default function DetailsProjectsHeading({heading, years}: DetailsProjectsHeadingProps){

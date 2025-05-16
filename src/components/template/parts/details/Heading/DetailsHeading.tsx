@@ -1,6 +1,6 @@
 import classNames from "classnames"
-import data from "../../../../data.json"
-import styles from "./styles/DetailsHeading.module.scss"
+import data from "../../../../../data.json"
+import styles from "./DetailsHeading.module.scss"
 
 export default function DetailsHeading(){
     return(

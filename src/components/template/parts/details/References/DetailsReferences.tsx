@@ -1,6 +1,6 @@
 import classNames from "classnames"
-import { type DetailsReferencesProps } from "../../../../types/types"
-import styles from "./styles/DetailsReferences.module.scss"
+import { type DetailsReferencesProps } from "../../../../../types/types"
+import styles from "./DetailsReferences.module.scss"
 
 export default function DetailsReferences({references}: DetailsReferencesProps){
     return(

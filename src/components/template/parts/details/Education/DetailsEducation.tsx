@@ -1,6 +1,6 @@
 import classNames from "classnames"
-import { type DetailsEducationProps } from "../../../../types/types"
-import styles from "./styles/DetailsEducation.module.scss"
+import { type DetailsEducationProps } from "../../../../../types/types"
+import styles from "./DetailsEducation.module.scss"
 
 export default function DetailsEducation({ details }: DetailsEducationProps) {
     return (

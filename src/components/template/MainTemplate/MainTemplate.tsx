@@ -1,7 +1,7 @@
 import classNames from "classnames"
 import styles from "./MainTemplate.module.scss"
-import Description from "../parts/description/Description"
-import Details from "../parts/details/Details"
+import Description from "../parts/description/Description/Description"
+import Details from "../parts/details/Details/Details"
 
 export default function MainTemplate(){
     return(
