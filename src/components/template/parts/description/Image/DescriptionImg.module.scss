@@ -1,0 +1,14 @@
+@use "../../../../template/MainTemplate/Statics.scss" as *;
+
+.DescriptionImg {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        border: 2px solid $line-color;
+        border-top: none;
+        max-width: 250px;
+        height: 250px;
+    }
+}
