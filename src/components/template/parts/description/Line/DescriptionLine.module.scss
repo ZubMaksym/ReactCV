@@ -1,8 +1,16 @@
-@use "../../../../template/MainTemplate/Statics.scss" as *;
+@use "../../../scss/variables" as *;
+@use "../../../scss/mixins" as *;
 
 .descriptionLine {
     background-color: $line-color;
     margin-left: 20px;
-    width: 70px;
+    width: 50px;
     height: 2px;
+    display: flex;
+
+    // @include phone {
+    //     justify-self: center;
+    //     width: 200px;
+    //     margin-left: 0px;
+    // }
 }

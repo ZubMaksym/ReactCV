@@ -1,3 +1,6 @@
+@use "../components/template/scss/mixins" as *;
+@use "../components/template/scss/variables" as *;
+
 html,
 body,
 div,
@@ -128,12 +131,23 @@ table {
     border-spacing: 0;
 }
 
+html, body {
+  height: 100%;
+  overflow: auto; // allow scroll
+}
+
 .App {
     background-color: #e2e2e2;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+
+    @include tablet {
+        height: auto;
+    }
+
+    @include phone {
+        height: auto;
+    }
 }

@@ -1,4 +1,5 @@
-@use "../../../../template/MainTemplate/Statics.scss" as *;
+@use "../../../scss/variables" as *;
+@use "../../../scss/mixins" as *;
 
 .descriptionImg {
     display: flex;
@@ -8,7 +9,11 @@
         width: 100%;
         border: 2px solid $line-color;
         border-top: none;
-        max-width: 250px;
-        height: 250px;
+        max-width: 240px;
+        height: 240px;
+    }
+
+    @include desktop {
+        
     }
 }

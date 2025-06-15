@@ -1,11 +1,24 @@
-@use "./Statics.scss" as *;
+@use "../scss/variables" as *;
+@use "../scss/mixins" as *;
 
 .mainTemplate {
     margin: 10px auto;
     display: flex;
     width: $width;
-    height: $height;
-    border: 2px solid black;
+    min-height: 100vh;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: $border-radius;
     overflow: hidden;
+
+    @include desktop {
+        
+    }
+
+    @include tablet {
+
+    }
+
+    @include phone{
+        flex-direction: column;
+    }
 }

@@ -1,8 +1,13 @@
-@use "../../../../template/MainTemplate/Statics.scss" as *;
+@use "../../../scss/variables" as *;
+@use "../../../scss/mixins" as *;
 
 .description {
     display: flex;
     flex-direction: column;
     width: calc($width * 0.4);
     background-color: #282424;
+
+    // @include phone{
+    //     width: 100%;
+    // }
 }
