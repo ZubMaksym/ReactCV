@@ -4,7 +4,7 @@ import styles from "./DetailsReferences.module.scss"
 
 export default function DetailsReferences({references}: DetailsReferencesProps){
     return(
-        <div className={classNames(styles.DetailsReferences)}>
+        <div className={classNames(styles.detailsReferences)}>
             <div>
                 GitHub:
             </div>

@@ -5,7 +5,7 @@ import {type DetailsSectionProps } from "../../../../../types/types"
 
 export default function DetailsSection({section, children}: DetailsSectionProps){
     return(
-        <div className={classNames(styles.DetailsSection)}>
+        <div className={classNames(styles.detailsSection)}>
             <h2>{section}</h2>
             <DetailsLine/>
             {children}

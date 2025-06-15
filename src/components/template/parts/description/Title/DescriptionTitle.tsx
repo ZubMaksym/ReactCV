@@ -6,7 +6,7 @@ import { type DescriptionTitleProps } from "../../../../../types/types"
 export default function DescriptionTitle({ title, children }: DescriptionTitleProps) {
     return (
         <div>
-            <h3 className={classNames(styles.DescriptionTitle)}>{title}</h3>
+            <h3 className={classNames(styles.descriptionTitle)}>{title}</h3>
             <DescriptionLine />
             {children}
         </div>

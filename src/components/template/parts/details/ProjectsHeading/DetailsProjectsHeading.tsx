@@ -4,7 +4,7 @@ import classNames from "classnames"
 
 export default function DetailsProjectsHeading({heading, years}: DetailsProjectsHeadingProps){
     return(
-        <div className={classNames(styles.DetailsProjectsHeading)}>
+        <div className={classNames(styles.detailsProjectsHeading)}>
             <h4>{heading}</h4>
             <div>{years}</div>
         </div>

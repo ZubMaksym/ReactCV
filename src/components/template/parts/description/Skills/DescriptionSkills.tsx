@@ -4,7 +4,7 @@ import classNames from "classnames"
 
 export default function DescriptionSkills({ skills }: DescriptionSkillsProps) {
     return (
-        <div className={classNames(styles.DescriptionContent)}>
+        <div className={classNames(styles.descriptionContent)}>
             <ul>
                 {skills.map((skill) => (
                     <li>{skill}</li>

@@ -4,7 +4,7 @@ import styles from "../sharedStyles/DescriptionContent.module.scss"
 
 export default function DescriptionLanguage({ languages }: DescriptionLanguagesProps) {
     return (
-        <div className={classNames(styles.DescriptionContent)}>
+        <div className={classNames(styles.descriptionContent)}>
             <ul>
                 {languages.map((language) => (
                     <li>{language}</li>

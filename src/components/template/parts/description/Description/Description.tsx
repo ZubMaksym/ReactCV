@@ -9,7 +9,7 @@ import classNames from "classnames"
 
 export default function Description() {
     return (
-        <div className={classNames(styles.Description)}>
+        <div className={classNames(styles.description)}>
             <DescriptionImg />
             <DescriptionTitle title="About Me" >
                 <DescriptionContent value={data.aboutMe.about} />

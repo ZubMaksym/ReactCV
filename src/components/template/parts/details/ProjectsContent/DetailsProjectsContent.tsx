@@ -4,7 +4,7 @@ import styles from "./DetailsProjectsContent.module.scss"
 
 export default function DetailsProjectsContent({description}: DetailsProjectsContentProps){
     return(
-        <div className={classNames(styles.DetailsProjectsContent)}>
+        <div className={classNames(styles.detailsProjectsContent)}>
             {description}
         </div>
     )

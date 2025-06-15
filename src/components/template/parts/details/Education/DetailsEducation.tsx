@@ -4,7 +4,7 @@ import styles from "./DetailsEducation.module.scss"
 
 export default function DetailsEducation({ details }: DetailsEducationProps) {
     return (
-        <div className={classNames(styles.DetailsEducation)}>
+        <div className={classNames(styles.detailsEducation)}>
             <div className={styles.university}>
                 <div>{details[0].educationalInstitution}:</div>
             </div>

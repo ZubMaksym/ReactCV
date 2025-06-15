@@ -11,7 +11,7 @@ import classNames from "classnames"
 
 export default function Details() {
     return (
-        <div className={classNames(styles.Details)}>
+        <div className={classNames(styles.details)}>
             <DetailsHeading />
             <DetailsSection section="Project Experience">
                 <DetailsProjectsHeading

@@ -4,7 +4,7 @@ import styles from "./DescriptionImg.module.scss"
 
 export default function DescriptionImg(){
     return(
-        <div className={classNames(styles.DescriptionImg)}>
+        <div className={classNames(styles.descriptionImg)}>
             <img src={img} alt="image not found" />
         </div>
     )

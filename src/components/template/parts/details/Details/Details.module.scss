@@ -1,6 +1,6 @@
 @use "../../../../template/MainTemplate/Statics.scss" as *;
 
-.Details {
+.details {
     display: flex;
     flex-direction: column;
     width: $width - calc($width * 0.4);

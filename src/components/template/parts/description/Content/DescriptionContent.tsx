@@ -4,7 +4,7 @@ import classNames from "classnames"
 
 export default function DescriptionContent({ value }: DescriptionContentProps) {
     return (
-        <p className={classNames(styles.DescriptionContent)}>
+        <p className={classNames(styles.descriptionContent)}>
             {value}
         </p>
     )
