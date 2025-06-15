@@ -11,9 +11,11 @@
         border-top: none;
         max-width: 240px;
         height: 240px;
+
+        @include phone {
+            max-width: 80%;
+            height: 80%;
+        }
     }
 
-    @include desktop {
-        
-    }
 }

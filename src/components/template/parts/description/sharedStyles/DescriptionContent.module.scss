@@ -15,16 +15,16 @@
         content: " • ";
     }
 
-    // @include phone{
-    //     width: fit-content;
-    //     display: flex;
-    //     justify-self: center;
-    //     text-align: center;
-    //     font-size: 20px;
-    //     li {
-    //         text-align: left;
-    //         padding-left: 25px;
-    //     }
-    // }
+    @include phone{
+        width: fit-content;
+        display: flex;
+        justify-self: center;
+        text-align: center;
+        font-size: 15px;
+        li {
+            text-align: left;
+        }
+        padding-bottom: 20px;
+    }
     
 }

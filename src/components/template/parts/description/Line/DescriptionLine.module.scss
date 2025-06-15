@@ -8,9 +8,10 @@
     height: 2px;
     display: flex;
 
-    // @include phone {
-    //     justify-self: center;
-    //     width: 200px;
-    //     margin-left: 0px;
-    // }
+    @include phone {
+        justify-self: center;
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 0px;
+    }
 }
